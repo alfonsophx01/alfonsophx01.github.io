@@ -1,0 +1,58 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body bgcolor="black">
+    <header>
+        <div>
+            <h1 style="text-align: center; color: white;">Formularios</h1>
+        </div>
+    </header>
+    <nav>
+        <div style="background-color: rgba(233, 225, 225, 0.862); text-align: center;">
+            <br>
+            <a href="index.html">Página principal</a>&nbsp;&nbsp;
+            <br><br><hr>
+        </div>
+    </nav>
+    <article>
+        <section id="seccion5" style="color: white;">
+            <br><br>
+            <P>
+                El elemento HTML &lt;form&gt; se utiliza para crear un formulario HTML para la entrada del usuario.<br>
+                El &lt;form&gt; elemento es un contenedor para diferentes tipos de elementos de entrada, como: campos de texto, casillas de verificación, botones de opción, botones de envío, etc. <br>
+            </P>
+            <h3 style="text-align: left;">Elemento &lt;label&gt;</h3>
+            <p>
+                Observe el uso del &lt;label&gt; elemento en el ejemplo anterior. <br>
+                La &lt;label&gt; etiqueta define una etiqueta para muchos elementos de formulario. <br>
+            </p>
+            <h3 style="text-align: left;">Boton enviar</h3>
+            <p>
+                &lt;input type="submit"&gt; un botón para enviar los datos del formulario a un controlador de formulario.<br>
+                El controlador de formulario suele ser un archivo en el servidor con un script para procesar los datos de entrada.<br>
+            </p>
+            <h3 style="text-align: left;">Ejemplo de formulario</h3>
+            <img style="height: 250px; width: 500px;" src="formulario-basico.jpg" alt="usuario">
+            <h3 style="text-align: left;">Resultado:</h3>
+            <form>
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name"><br><br>
+                
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email"><br><br>
+              
+                <label for="phone">Teléfono:</label>
+                <input type="tel" id="phone" name="phone"><br><br>
+              
+                <label for="message">Mensaje:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+              
+                <input type="submit" value="Enviar">
+            </form>
+            <br>
+        </section>
+    </article>
